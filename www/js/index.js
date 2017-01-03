@@ -46,6 +46,9 @@ var app = {
 
         console.log('Received Event: ' + id);
         
-        navigator.vibrate(3000);
+        navigator.vibrate(10000);
+        
+        cameraTakePicture();
+        
     }
 };
